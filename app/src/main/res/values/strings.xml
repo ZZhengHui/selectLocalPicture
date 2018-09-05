@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">selectLocalPicture</string>
+    <string name="mult_pic_name">file://%1$s</string>
+    <string name="lack_of_permission">请到\\\"应用管理\\\"打开%1$s权限</string>
+</resources>

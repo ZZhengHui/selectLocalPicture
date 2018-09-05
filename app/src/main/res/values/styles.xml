@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogPopTheme">
+        <item name="android:windowAnimationStyle">@style/up_and_down</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>      <!--设置点击外部可消失-->
+        <item name="android:backgroundDimEnabled">true</item>      <!--设置阴影可见-->
+    </style>
+
+    <style name="up_and_down">
+        <item name="android:windowEnterAnimation">@anim/up</item>
+        <item name="android:windowExitAnimation">@anim/down</item>
+    </style>
+
+</resources>

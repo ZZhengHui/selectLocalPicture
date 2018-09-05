@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/open_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera" />
+
+    <Button
+        android:id="@+id/open_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open_camera"
+        android:layout_marginTop="5dp"
+        android:text="Open Gallery" />
+
+    <Button
+        android:id="@+id/choose_multiply_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open_gallery"
+        android:layout_marginTop="5dp"
+        android:text="Choose Sys Pic" />
+
+</RelativeLayout>
