@@ -32,6 +32,10 @@
                 tools:replace="android:resource" />
         </provider>
 
+        <!--选择多张图片-->
+        <activity android:name=".selectPic.SelectMultiplyPicsActivity" />
+        <activity android:name=".selectPic.SelectMultiplyPicPreviewActivity" />
+
     </application>
 
 </manifest>

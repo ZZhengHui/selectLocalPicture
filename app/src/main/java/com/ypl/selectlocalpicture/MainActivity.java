@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements SelectTheSysPicDi
 
     @Override
     public void openMultyPic() {
-
+        presenter.openMultyPic();
     }
 
     @Override
